@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+todo-web:
+  
+  images: divya422/todo-img:latest
+  container_name: todo-app
+  ports:
+    - 8000:8000
